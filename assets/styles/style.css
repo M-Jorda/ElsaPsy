@@ -1,0 +1,44 @@
+body {
+    background: #EEF5FF;
+}
+
+header {
+    background: #A25772;
+    color: rgb(228, 228, 228);
+
+    #a {
+        color: rgb(228, 228, 228);
+    }
+}
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* ------------------------------------------------------
+                    main
+------------------------------------------------------ */
+
+article {
+    background-color: #9EB8D9;
+    border-radius: 20px;
+}
+
+.champs {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+     input {
+         border-radius: 5px;
+     }
+    textarea {
+        border-radius: 5px;
+        resize: none;
+    }
+}
+
+footer {
+    background-color: #9EB8D9;
+}

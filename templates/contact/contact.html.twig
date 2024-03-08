@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+    <section class="d-flex flex-column flex-xl-row justify-content-between">
+        <article class="container-fluid mb-4 p-5 mx-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-5">Informations</h1>
+                    <div class="text-center d-md-flex d-xl-block d-block justify-content-around">
+
+                        <div>
+                            <h3>Visio-consultation :</h3>
+                            <p>(heure métropolitaine)<br>
+                                - lundi : 9h-18h <br>
+                                - vendredi : 9h-12h</p>
+
+                            <p>Tous les mercredi <br>
+                                9h - 18h</p>
+                        </div>
+
+                        <div>
+                            <h3>Contact</h3>
+                            <p>(+33) 06.43.29.84.35 <br>
+                                4 rue Oudinot <br>
+                                75007 Paris</p>
+
+                            <h4 class="h3">Cabinet libéral :</h4>
+                            <p>- mercredi: 10h-19h</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="container-fluid mb-4 p-5 mx-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-5">Me contacter</h1>
+                    <div>
+                        <form action="#" class="form-group">
+                            <div class="mb-3">
+                                <label for="nom">Nom</label>
+                                <input type="text" class="form-control" name="nom" id="nom" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel">Télephone</label>
+                                <input type="text" class="form-control" name="tel" id="tel" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail">E-mail</label>
+                                <input type="email" class="form-control" name="mail" id="mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="com">Commentaire</label>
+                                <textarea class="form-control" name="com" id="com" rows="6" required></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <article class="container-fluid mb-4 p-5 mx-2">
+        <div class="row">
+            <div class="col-12">
+                <img src="#" alt="" class="img-fluid">
+                <p></p> <!-- Vous pouvez ajouter du texte ici si nécessaire -->
+            </div>
+        </div>
+    </article>
+{% endblock %}

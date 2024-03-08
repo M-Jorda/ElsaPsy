@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pourquoi consulter{% endblock %}
+
+{% block body %}
+    <section class="d-flex flex-column-reverse flex-xxl-row justify-content-between">
+        <article class="container-fluid mb-4 p-5 mx-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-5 h2">Le Pouvoir Thérapeutique de l'Écoute</h1>
+                    {#                    <p>Que ce soit à votre initiative ou sur les conseils de votre entourage ou d’un professionnel de santé, toute personne, quelque soit son âge, #}
+                    {#                        peut être amenée à consulter un psychologue pour prendre le temps de poser des mots sur ses difficultés afin d’initier un processus de changement. #}
+
+                    {#                        Mon écoute s'attache à l'histoire singulière de chacun et à la part inconsciente de la vie psychique en jeu dans toute relation. #}
+                    {#                        Dans un espace de confidentialité, bienveillant et sans être jugé dans vos paroles et vos pensées, vous pourrez aborder les questions, #}
+                    {#                        les doutes et les sujets qui vous conduisent à vous adresser à un psychologue. #}
+                    {#                    </p> #}
+                    <p>Les motifs de consultation peuvent être nombreux : moment de vie difficile, difficultés
+                        relationnelles ou de gestion des émotions, manque de confiance en soi, perte de motivation mais
+                        aussi sentiment de mal-être, blocages, anxiété, etc... <br>
+                        Parfois, cela peut être pour des motifs plus graves ou invalidants au quotidien : troubles
+                        alimentaires, trouble du sommeil, attaques de panique, phobies, TOC, idées noires, etc...</p>
+                    <img src="{{ asset('img/image.png') }}" alt="Psychologue qui écoute un patient" class="w-100">
+                </div>
+            </div>
+        </article>
+
+        <article class="container-fluid mb-4 p-5 mx-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-5 h2">Exprimer pour Guérir</h1>
+                    {#                    <p>Les motifs de consultation sont nombreux et peuvent concerner tous types de situations qui #}
+                    {#                        entraînent un état de souffrance passager, #}
+                    {#                        un mal-être plus important, ou tout simplement le désir de revenir sur votre trajet de vie pour #}
+                    {#                        en repérer les impasses #}
+                    {#                        ou les répétitions douloureuses qui valent la peine d’être entendues. #}
+
+                    {#                        Le ou les premiers entretiens consistent en un temps d'échange où vous êtes invité à vous #}
+                    {#                        exprimer spontanément et librement #}
+                    {#                        sur ce qui vous amène à consulter pour que nous identifions ensemble votre demande. #}
+
+                    {#                        Ce temps va également me permettre de vous proposer un accompagnement psychologique adapté dont #}
+                    {#                        nous discuterons ensemble les modalités.</p> #}
+                    <p>Je propose différents types de suivi :</p>
+
+                    <p><strong>Le soutien psychologique</strong> est un suivi qui peut être ponctuel ou espacé pour faire face à un moment
+                        de vie difficile. Il est adapté aux personnes ne présentant pas une souffrance psychique trop
+                        importante et souhaitant comprendre les enjeux d’une situation, prendre du recul, mettre du sens et
+                        retrouver des ressources sur lesquels s’appuyer.</p>
+
+                    <p><strong>La psychothérapie</strong> est un suivi régulier et soutenu. C’est un travail qui vise à dénouer des
+                        blocages, à mettre du sens sur ce qui affecte ou qui se répète, à faire du lien entre évènements
+                        passés et présents et qui amène ainsi à un remaniement psychique en profondeur.</p>
+
+                    <p><strong>La guidance parentale</strong> est un suivi, lui aussi, ponctuel et/ou espacé. C’est un soutien à la
+                        parentalité qui permet de faire face à des difficultés sur le plan éducatif ou affectif et de
+                        réajuster l’équilibre familial parfois mis à mal par des évènements externes (scolaire,
+                        professionnel, social,…) ou internes à la famille (séparation, famille recomposée, deuil, handicap,
+                        adoption, jalousie, conflits, etc...).</p>
+
+                </div>
+            </div>
+        </article>
+    </section>
+{% endblock %}
